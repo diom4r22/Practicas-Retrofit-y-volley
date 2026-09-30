@@ -1,0 +1,38 @@
+# Archivos de configuración local y claves
+local.properties
+**/local.properties
+*.key
+*.keystore
+*.jks
+
+# Carpetas de compilación y cachés de Gradle
+.gradle/
+**/.gradle/
+build/
+**/build/
+
+# Metadatos del IDE (Android Studio / IntelliJ IDEA)
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+
+# Logs y capturas
+*.log
+/captures
+**/captures/
+
+# Compilaciones nativas
+.externalNativeBuild/
+**/.externalNativeBuild/
+.cxx/
+**/.cxx/
+
+# Paquetes generados
+*.apk
+*.aab
+*.dex
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db

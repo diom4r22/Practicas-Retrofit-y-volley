@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Practica_Volley</string>
+    <string name="tvTitle">Listado de Posts (API JSONPlaceholder)</string>
+    <string name="registros_recibidos">Se recibieron %1$d registros</string>
+</resources>

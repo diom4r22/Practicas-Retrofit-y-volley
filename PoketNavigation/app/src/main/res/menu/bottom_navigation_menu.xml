@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Estas son las 3 opciones del menu de abajo.
+     El id de cada una es el que se revisa en MainActivity
+     para saber que pantalla abrir. -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/navigation_favorites"
+        android:icon="@drawable/outline_add_reaction_24"
+        android:title="Favoritos" />
+
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/outline_arrows_input_24"
+        android:title="Información" />
+
+</menu>
